@@ -1,6 +1,7 @@
 @echo off
 
 cd "C:\"
+REM edit the directory below to your desired directory
 cd "C:\Users\User\Desktop\Github Projects"
 py autogit.py %*
 set repoName=%*
